@@ -1,0 +1,10 @@
+li=['Ajithkumar','vijay','arjunredy']
+print("list of patient",li)
+li.append(input("Enter  the name  of patient:"))
+print(li)
+c=str(input("Enter your index to beremove "))
+li.remove(c)
+print(li)
+s=str(input("Enter VIP patient name: "))
+li.insert(1,s)
+print("Succesfully added VIP name :\n",li)
